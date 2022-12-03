@@ -14,7 +14,7 @@ def index():
   'homepage.html',
   posts=posts,
   loggedIn=session.get('loggedIn')
-)
+ )
 
 @bp.route('/login')
 def login():
@@ -35,4 +35,4 @@ def single(id):
   'single-post.html',
   post=post,
   loggedIn=session.get('loggedIn')
-)
+ )
